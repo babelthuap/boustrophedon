@@ -1,0 +1,21 @@
+#text {
+  display: block;
+  margin: 8px 0;
+}
+
+#container {
+  font-family: 'Courier New', Courier, monospace;
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.char {
+  display: table-cell;
+}
+
+.row.reverse .char {
+  transform: rotateY(180deg);
+}
